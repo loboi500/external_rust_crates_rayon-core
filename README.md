@@ -1,11 +1,3 @@
-Rayon-core represents the "core, stable" APIs of Rayon: join, scope, and so forth, as well as the ability to create custom thread-pools with ThreadPool.
-
-Maybe worth mentioning: users are not necessarily intended to directly access rayon-core; all its APIs are mirror in the rayon crate. To that end, the examples in the docs use rayon::join and so forth rather than rayon_core::join.
-
-rayon-core aims to never, or almost never, have a breaking change to its API, because each revision of rayon-core also houses the global thread-pool (and hence if you have two simultaneous versions of rayon-core, you have two thread-pools).
-
-Please see [Rayon Docs] for details about using Rayon.
-
-[Rayon Docs]: https://docs.rs/rayon/
-
-Rayon-core currently requires `rustc 1.36.0` or greater.
+version https://git-lfs.github.com/spec/v1
+oid sha256:27837a5d829f46e889bf9a4a8dff964709c8a3cfc0a24bc4f0ef1e9034798b41
+size 779
